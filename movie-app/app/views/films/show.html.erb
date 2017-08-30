@@ -1,0 +1,8 @@
+ 
+<a href="/films">Home</a>
+
+<h1><%= @film.title %> <a href="/films/<%= @film.id %>/edit">(edit)</a></h1>
+<%= image_tag @film.picture%>
+<h3>Genre:</h3> <%= @film.genre %>
+<h3>Year:</h3> <%= @film.year %>
+<h3>Synopsis:</h3> <%= @film.synopsis %>
